@@ -1,0 +1,20 @@
+# loads data to vector as alist
+ListRenderTimesRaw <-read.csv("/home/ajuarez/PythonDev/RenderAnalisys/data.csv")
+# converts from list to vector
+RenderTimes <- as.vector(unlist(ListRenderTimesRaw))
+
+# loads data to vector as alist
+FarmEfficiencyRaw <-read.csv("/home/ajuarez/PythonDev/RenderAnalisys/PerDay.csv")
+# converts from list to vector
+FarmEfficiency <- as.vector(unlist(FarmEfficiencyRaw))
+
+
+# loads data to vector as alist
+HarvestRaw <-read.csv("/home/ajuarez/PythonDev/RenderAnalisys/PerDayHarvest.csv")
+# converts from list to vector
+Harvest <- as.vector(unlist(HarvestRaw))
+
+# loads data to vector as alist
+AcomulativeRaw <-read.csv("/home/ajuarez/PythonDev/RenderAnalisys/FramesAcomulativive.csv")
+# converts from list to vector
+Acomulative <- as.vector(unlist(AcomulativeRaw))
